@@ -31,7 +31,7 @@ struct Planet{
         cout<<"The weight of the planet is: "<<weight<<endl;
     }
 
-    void time(){
+    double time(){
         return distance / sunLightSpeed;
     }
 };
